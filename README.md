@@ -390,7 +390,7 @@ const story = [
 &nbsp;
 git-diff без использования оконечной запятой
 ```javascript
-onst hero = {
+const hero = {
      firstName: 'Florence',
 -    lastName: 'Nightingale'
 +    lastName: 'Nightingale',
