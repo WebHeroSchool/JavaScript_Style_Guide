@@ -9,7 +9,7 @@
   "rules": {
     "array-bracket-spacing": ["error", "never"],
     "block-spacing": "error",
-    "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+    "brace-style": ["error", "1tbs", { "allowSingleLine": false }],
     "camelcase": "error",
     "comma-dangle": ["error", "always"],
     "comma-spacing":  ["error", { "before": false, "after": true }],
@@ -63,7 +63,7 @@
     "no-template-curly-in-string": "error",
     "no-trailing-spaces": "error",
     "no-undef": "error",
-    "no-underscore-dangle": "error",
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }],
     "no-unneeded-ternary": "error",
     "no-unused-vars": "error",
     "nonblock-statement-body-position": ["error", "beside"],
