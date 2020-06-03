@@ -218,7 +218,7 @@ const dragonball = 'z';
 &nbsp;
 #### 4. Не используйте множественное присваивание. Такие конструкции создают неявные глобальные переменные.
 
-> eslint: [`no-multi-assign`](https://eslint.org/docs/rules/no-multi-assign#top)
+> eslint: [`no-multi-assign`](https://eslint.org/docs/rules/no-multi-assign#top), [`one-var`](https://eslint.org/docs/rules/one-var)
 
 &nbsp;
 
