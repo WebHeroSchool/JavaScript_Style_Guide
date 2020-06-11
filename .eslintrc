@@ -81,7 +81,7 @@
     "no-const-assign": "error",
     "no-else-return": "error",
     "dot-notation": "error",
-    "quotes": ["error", "single"],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true, "avoidEscape": true}],
     "wrap-iife":  ["error", "outside"],
     "arrow-parens": ["error", "as-needed"],
     "arrow-spacing": "error",
